@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Profile</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-image: url(plaaaaaaaaaaain.png);
+            background-size: cover;
+            background-attachment: fixed;
+            background-position: center;
+            color: white;
+            text-align: center;
+        }
+
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 10px 20px;
+            background-color: rgba(0, 0, 0, 0.5);
+        }
+
+        header .logo-container {
+            display: flex;
+            align-items: center;
+        }
+
+        header .logo {
+            height: 40px;
+            margin-right: 10px;
+        }
+
+        header .logo-container span {
+            font-size: 1.2em;
+            font-weight: bold;
+        }
+
+        header nav ul {
+            list-style: none;
+            display: flex;
+            gap: 20px;
+            padding: 0;
+            margin: 0;
+        }
+
+        header nav ul li {
+            display: inline;
+        }
+
+        header nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-size: 18px;
+        }
+
+        header nav ul li a:hover {
+            color: #aaa;
+        }
+
+        header nav ul li a i {
+            font-size: 20px;
+        }
+
+        .intro {
+            padding: 50px 20px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .intro h1 {
+            font-size: 3em;
+            margin: 0;
+        }
+
+        .intro .profile-pic {
+            margin-top: 20px;
+            border-radius: 50%;
+            width: 150px;
+            height: 150px;
+        }
+
+        .about {
+            background-color: rgba(0, 0, 0, 0.7);
+            padding: 40px 20px;
+        }
+
+        .about h2 {
+            font-size: 2.5em;
+            margin-bottom: 10px;
+        }
+
+        .about p {
+            margin: 20px 0;
+        }
+
+        .about .content {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+
+        .about .background, .about .skills {
+            background-color: rgba(255, 255, 255, 0.1);
+            padding: 20px;
+            border-radius: 10px;
+            width: 45%;
+            min-width: 300px;
+        }
+
+        .about .background h3, .about .skills h3 {
+            font-size: 1.5em;
+            margin-bottom: 10px;
+        }
+
+        .contact {
+            padding: 40px 20px;
+        }
+
+        .contact h2 {
+            font-size: 2.5em;
+            margin-bottom: 10px;
+        }
+
+        .contact p {
+            font-size: 1.2em;
+        }
+
+        .contact a {
+            color: white;
+            text-decoration: underline;
+        }
+
+        .contact a:hover {
+            color: #aaa;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="logo-container">
+            <img src="tranparent.png" alt="Logo" class="logo">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="https://www.facebook.com/incluuvid" target="_blank"><i class="fab fa-facebook"></i></a></li>
+                <li><a href="https://www.instagram.com/luvivilux?igshid=MTkxYXg4djVlNDF0OQ==" target="_blank"><i class="fab fa-instagram"></i></a></li>
+                <li><a href="mailto:luiginichoscruz@gmail.com"><i class="fas fa-envelope"></i></a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="intro" id="home">
+            <h1>Luigi Cruz</h1>
+            <img src="Picture logo (1).png" alt="Profile Picture" class="profile-pic">
+        </section>
+        <section class="about" id="about">
+            <h2>ABOUT</h2>
+            <p>Thanks for stopping by. Read to learn more about myself and my background.</p>
+            <div class="content">
+                <div class="background">
+                    <h3>BACKGROUND</h3>
+                    <p>I am an enthusiastic and dedicated student. Possessing great communication and collaboration skills. With exceptional operation and cooperation abilities to engage with people around and in the team, and to manage. Seeking for a position to broaden my horizon in the work space.</p>
+                </div>
+                <div class="skills">
+                    <h3>SKILLS</h3>
+                    <ul>
+                        <li>Communication, Collaborative and Cooperative Skills</li>
+                        <li>Computer Software Skills</li>
+                        <li>Rational & Logical Skills</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+        <section class="contact" id="contact">
+            <h2>CONTACT</h2>
+            <p>Phone: 0928-360-1111</p>
+            <p>Email: <a href="mailto:luiginichoscruz@gmail.com">luiginichoscruz@gmail.com</a></p>
+        </section>
+    </main>
+</body>
+</html>
+
+
+
+
